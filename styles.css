@@ -1,0 +1,99 @@
+/* 
+-use at least one of each types of selectors: element, class, id
+    
+avoid adding HTML elements)
+use doc-level and inline styles sparingly and only when necessary
+*/
+
+
+.parallax {
+    background-image: url(photos/title.jpg);
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+#firstline {
+    display: inline-block;
+    font-size: 20px;
+    text-shadow: 1.25px 1.25px #000;
+    padding: 0;
+    margin: 0;
+    opacity: .8;
+}
+
+#secondline {
+    display: inline-block;
+    font-size: 50px;
+    text-shadow: 1.5px 1.5px #000;
+    padding: 0;
+    margin: 0;
+    opacity: .8;
+}
+
+.navbar ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 5px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar a:hover {
+    color: #1B5970;
+}
+
+body {
+    font-family: sans-serif; 
+}
+
+.leftimg {
+    float: left;
+    padding-left: 175px;
+    padding-right: 5px;
+}
+
+.leftp {
+    padding-top: 0px;
+    width: 400px;
+    float: right;
+    padding-right: 250px;
+}
+
+.rightimg {
+    float: right;
+    padding-right: 175px;
+    padding-left: 5px;
+}
+
+.rightp {
+    padding-top: 0px;
+    width: 400px;
+    float: left;
+    padding-left: 250px;
+}
+
+.section {
+    padding-bottom: 60px;
+}
+.section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    text-align: center;
+}
